@@ -2,8 +2,8 @@
 #include "StateMachine.h"
  
 StateMachine::StateMachine(unsigned char maxStates) :
-    _maxStates(maxStates),
     currentState(0),
+    _maxStates(maxStates),
     _eventGenerated(false),
     _pEventData(NULL)
 {
